@@ -6,6 +6,7 @@ class CommentsMigration < ActiveRecord::Migration
       t.integer :projects_id
       t.integer :clients_id
       t.integer :industry_id
+      t.integer :dveloper_id
       t.string :comment
     end
   end
